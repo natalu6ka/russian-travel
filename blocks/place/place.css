@@ -1,0 +1,32 @@
+.place {
+  margin: 0 auto 80px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 48px 40px;
+}
+
+.place:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    margin: 73px auto 0;
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 50px;
+    gap: 0;
+  }
+}
