@@ -2,7 +2,7 @@
   background-image: url(../../../images/do_baikala_pressed.jpg);
   background-size: cover;
   background-position: center;
-	display: flex;
+  display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -13,19 +13,19 @@
 }
 
 .cover__overlay:before {
-	content: "";
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	background-color: #2A2C2F;
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #2A2C2F;
   opacity: 0.3;
   transition: opacity 0.5s ease;
 }
 
 .cover__overlay:hover:before {
-	opacity: 0.7;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {

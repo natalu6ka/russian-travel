@@ -9,10 +9,14 @@
 
 @media screen and (max-width: 768px) {
   .lead__subtitle {
-      max-width: 640px;
-      margin: 32px auto 56px;
-      font-size: 30px;
-      line-height: 36px;
+      margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .lead__subtitle {
+    font-size: 25px;
+    line-height: 1.25;
   }
 }
 
@@ -21,5 +25,6 @@
     max-width: 288px;
     font-size: 16px;
     line-height: 20px;
+    margin: 16px auto 40px;
   }
 }
