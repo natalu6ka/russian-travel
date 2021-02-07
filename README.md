@@ -9,7 +9,7 @@ Project created to train skills of developing websites with:
 * HTML5
 * CSS3 including Flex layout and Grid layout technologies
 * Files structure organized with BEM-Nested technology
-* Adaptivity
+* Adaptivity with Media queries
 * Working with Figma
 ------
 
